@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sallon SST</title>
+    <link rel="stylesheet" href="./style/output.css" />
+  </head>
+
+  <body class="container overflow-x-hidden"></body>
+  <!-------Background Video---------->
+  <div class="h-screen w-screen absolute z-1">
+    <video
+      src="./public/videoSalonSST.mp4"
+      class="inset-0 w-screen h-screen object-cover"
+      autoplay
+      muted
+      loop
+    ></video>
+  </div>
+  <!--------All The Content------->
+  <div
+    class="px-4 md:px-8 xl:px-12 overflow-hidden min-h-screen flex flex-col absolute z-10"
+  >
+    <!-------The header---------->
+    <header class="grid grid-cols-12 h-24 text-white w-full">
+      <div
+        class="col-span-6 md:col-span-3 flex justify-start items-center grid-span-3 gap-x-2"
+      >
+        <img
+          src="https://www.salonsst.org/logo-fit.png"
+          alt="Sallon SST Logo"
+          class="w-8 h-8"
+        />
+        <h1 class="font-bold">Salon SST</h1>
+      </div>
+      <nav
+        class="col-span-6 md:flex justify-center items-center grid-span-6 m-auto hidden"
+      >
+        <ul class="flex justify-between items-end gap-3">
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Sponsors</a></li>
+        </ul>
+      </nav>
+      <div
+        class="col-span-6 md:col-span-3 flex justify-end items-center gap-3 grid-span-3 w-full h-full"
+      >
+        <button class="btn rounded-4xl shadow-none font-light">
+          Devenir Sponsor
+        </button>
+        <div
+          class="h-10 w-10 bg-[#f5f5f5] rounded-full flex justify-center items-center text-black"
+        >
+          <h1 class="font-bold">=></h1>
+        </div>
+      </div>
+    </header>
+    <!------------------Hero Section------------------------>
+    <div
+      class="h-[calc(100vh-6rem)] flex flex-col items-start justify-end w-full text-start py-4 relative"
+    >
+      <h1 class="text-3xl md:text-6xl font-extrabold text-white leading-[1.2]">
+        Un espace de collaboration pour les acteurs de la prévention et les
+        entreprises
+      </h1>
+      <!--Call To Action Btn-->
+      <div class="w-full flex justify-start items-center gap-3 mt-4">
+        <button class="btn rounded-4xl shadow-none font-light">
+          Rapport 2025
+          <div
+            class="h-8 w-8 bg-[#00000] rounded-full flex justify-center items-center text-black"
+          >
+            <h1 class="font-bold">=></h1>
+          </div>
+        </button>
+      </div>
+      <!-----------Badge with All The Icones------------->
+      <div class="avatar-group -space-x-6 absolute bottom-4 right-4">
+        <div class="avatar">
+          <div class="w-8 lg:w-12">
+            <img
+              alt="Tailwind-CSS-Avatar-component"
+              src="https://img.daisyui.com/images/profile/demo/batperson@192.webp"
+            />
+          </div>
+        </div>
+        <div class="avatar">
+          <div class="w-8 lg:w-12">
+            <img
+              alt="Tailwind-CSS-Avatar-component"
+              src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp"
+            />
+          </div>
+        </div>
+        <div class="avatar">
+          <div class="w-8 lg:w-12">
+            <img
+              alt="Tailwind-CSS-Avatar-component"
+              src="https://img.daisyui.com/images/profile/demo/averagebulk@192.webp"
+            />
+          </div>
+        </div>
+        <div class="avatar avatar-placeholder">
+          <div class="bg-neutral text-neutral-content w-8 lg:w-12">
+            <span class="text-sm">+200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------About Section------------------------>
+    <div
+      class="py-8 lg:h-screen w-full font-bold flex flex-col md:flex-row justify-center items-center md:justify-center md:items-center relative"
+    >
+      <div class="flex flex-2 justify-start items-center h-full w-full">
+        <h1 class="text-3xl md:text-5xl w-full">
+          Un événement de référence qui rassemble chaque année les
+          professionnels,
+          <span class="text-[#f2f5f5]"
+            >experts et entreprises engagés dans la prévention des risques
+            professionnels.</span
+          >
+        </h1>
+      </div>
+      <div class="flex flex-1 justify-center items-end h-full w-full">
+        <iframe
+          src="https://www.youtube.com/embed/dj7HQ-vbQjw?si=7YoPZynt5zFx2YWT"
+          title="YouTube video player"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!---Le Salon SST -->
+    <div class="text-center mt-8">
+      <h1 class="text-6xl font-bold">Le Salon SST c'est</h1>
+    </div>
+    <!------------------Les Avantages-->
+    <div
+      class="min-h-screen w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 my-8"
+    >
+      <!------------------01 Sécurité au Travail-->
+      <div
+        class="w-85 p-6 flex flex-col justify-center items-start gap-4 border border-[whitesmoke] relative overflow-hidden"
+      >
+        <div class="flex justify-center items-start">
+          <h1 class="text-4xl font-bold">01.</h1>
+        </div>
+        <h1 class="font-bold text-2xl">Sécurité au Travail</h1>
+        <p class="">
+          Découvrez les dernières innovations en matière de prévention des
+          risques professionnels.
+        </p>
+        <img
+          src="./public/icons/security-lock.svg"
+          alt=""
+          class="absolute top-0 right-0 opacity-45"
+        />
+      </div>
+      <!------------------02 Networking-->
+      <div
+        class="w-85 p-6 flex flex-col justify-center items-start gap-4 border border-[whitesmoke] relative overflow-hidden"
+      >
+        <div class="flex justify-center items-start">
+          <h1 class="text-4xl font-bold">02.</h1>
+        </div>
+        <h1 class="font-bold text-2xl">Networking</h1>
+        <p class="">
+          Rencontrez les experts et professionnels de la santé et sécurité au
+          travail.
+        </p>
+        <img
+          src="./public/icons/people-outline.svg"
+          alt=""
+          class="absolute top-0 right-0 opacity-45"
+        />
+      </div>
+      <!------------------03 Formations-->
+      <div
+        class="w-85 p-6 flex flex-col justify-center items-start gap-4 border border-[whitesmoke] relative overflow-hidden"
+      >
+        <div class="flex justify-center items-start">
+          <h1 class="text-4xl font-bold">03.</h1>
+        </div>
+        <h1 class="font-bold text-2xl">Formations</h1>
+        <p class="">
+          Participez à des ateliers et formations certifiantes avec nos
+          partenaires experts.
+        </p>
+        <img
+          src="./public/icons/school.svg"
+          alt=""
+          class="absolute top-0 right-0 opacity-45"
+        />
+      </div>
+      <!------------------04 Événement Annuels-->
+      <div
+        class="w-85 p-6 flex flex-col justify-center items-start gap-4 border border-[whitesmoke] relative overflow-hidden"
+      >
+        <div class="flex justify-center items-start">
+          <h1 class="text-4xl font-bold">04.</h1>
+        </div>
+        <h1 class="font-bold text-2xl">Événements Annuels</h1>
+        <p class="">
+          Le rendez-vous incontournable des acteurs SST au Togo et en Afrique.
+        </p>
+        <img
+          src="./public/icons/event-available.svg"
+          alt="Événement disponible"
+          class="absolute top-0 right-0 opacity-45"
+        />
+      </div>
+      <!------------------05 Solutions Innovantes-->
+      <div
+        class="w-85 p-6 flex flex-col justify-center items-start gap-4 border border-[whitesmoke] relative overflow-hidden"
+      >
+        <div class="flex justify-center items-start">
+          <h1 class="text-4xl font-bold">05.</h1>
+        </div>
+        <h1 class="font-bold text-2xl">Solutions Innovantes</h1>
+        <p class="">
+          Explorez les technologies et équipements de pointe pour la sécurité au
+          travail.
+        </p>
+        <img
+          src="./public/icons/lightbulb-on.svg"
+          alt=""
+          class="absolute top-0 right-0 opacity-45"
+        />
+      </div>
+      <!------------------05 Entreprises Partenaires-->
+      <div
+        class="w-85 p-6 flex flex-col justify-center items-start gap-4 border border-[whitesmoke] relative overflow-hidden"
+      >
+        <div class="flex justify-center items-start">
+          <h1 class="text-4xl font-bold">05.</h1>
+        </div>
+        <h1 class="font-bold text-2xl">Entreprises partenaires</h1>
+        <p class="">
+          Connectez-vous avec des entreprises leaders dans le domaine de la SST.
+        </p>
+        <img
+          src="./public/icons/business-sharp.svg"
+          alt=""
+          class="absolute top-0 right-0 opacity-45"
+        />
+      </div>
+    </div>
+    <!------------------ Notre Mission--------------------->
+    <div class="min-h-screen">
+      <div class="my-4">
+        <img
+          src="https://www.salonsst.org/mission.png"
+          alt="une dame joyeuse"
+          class=""
+        />
+      </div>
+      <h1 class="text-4xl font-bold my-2">Notre Mission</h1>
+      <div class="flex justify-center items-center w-full">
+        <div class="w-full md:w-1/2">
+          <p class="text-2xl">
+            Promouvoir une culture de la sécurité et de la santé au travail au
+            Togo et en Afrique, en facilitant les échanges entre professionnels,
+            en présentant les innovations technologiques et en renforçant les
+            compétences des acteurs du secteur.
+          </p>
+        </div>
+        <div class="hidden md:w-1/2"></div>
+      </div>
+    </div>
+    <!------------------ Nos evenements passes--------------------->
+    <div class="h-screen text-end">
+      <h1 class="">Reviver l'evenement passe</h1>
+      <div class="grid grid-cols-1 md:grid-cols-3 w-full relative gap-4">
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4D22AQHXQODhd9w4pw/feedshare-shrink_1280/B4DZrbn5qPJ4Aw-/0/1764621265562?e=1792627200&v=beta&t=MF4GkcoQUMcGpFOYaYuu2vlhz5paxMfhle30iqTJQwM"
+          alt="Premiere edition du Salon SST"
+          srcset=""
+        />
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4D22AQFlFF4OB0WkEA/feedshare-shrink_1280/B4DZrbn5qEGwAw-/0/1764621265004?e=1792627200&v=beta&t=loWIdx3DjY3LcFn-e45cLtMR-Ynq2-uOeVENglMR-I0"
+          alt="Premiere edition du Salon SST"
+          srcset=""
+        />
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4D22AQEguYqsNxEb9g/feedshare-shrink_1280/B4DZrbn5qQGkAw-/0/1764621264806?e=1792627200&v=beta&t=284hs1yOJueHYdOpLMQgcO83Zs79hSchXnpjgcfFuJ4"
+          alt="Premiere edition du Salon SST"
+          srcset=""
+        />
+      </div>
+    </div>
+    <!------------------ Nos Partenaires--------------------->
+    <div class="min-h-screen text-end">
+      <h1 class="">Nos Partenaires</h1>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-gray-200 p-4 rounded-lg">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Partenaire 1"
+            class="mx-auto"
+          />
+        </div>
+        <div class="bg-gray-200 p-4 rounded-lg">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Partenaire 2"
+            class="mx-auto"
+          />
+        </div>
+        <div class="bg-gray-200 p-4 rounded-lg">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Partenaire 3"
+            class="mx-auto"
+          />
+        </div>
+      </div>
+    </div>
+    <!------------------ Notre Vision--------------------->
+    <footer class="h-[50vh] flex justify-center items-center w-full relative">
+      <h1 class="font-bold text-[13vw]">Le Salon SST</h1>
+    </footer>
+  </div>
+</html>

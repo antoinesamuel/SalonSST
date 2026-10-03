@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@layer base {
+  body {
+    font-family: "General Sans", sans-serif;
+  }
+  .container {
+    min-width: 100vw;
+    min-height: 100vh;
+    /* Add your background pattern here */
+    background: #ffffff radial-gradient(rgb(0, 0, 0, 0.1) 10%, transparent 1%);
+    background-size: 11px 11px;
+  }
+}
